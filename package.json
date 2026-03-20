@@ -1,0 +1,23 @@
+{
+  "name": "figma-design-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-file Figma extractor for compact design catalog, usage graph, review candidates, mapping validation, and drift reports.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "scripts": {
+    "extract": "tsx src/index.ts extract",
+    "diff": "tsx src/index.ts diff",
+    "report": "tsx src/index.ts report",
+    "baseline:update": "tsx src/index.ts baseline:update",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.2"
+  }
+}

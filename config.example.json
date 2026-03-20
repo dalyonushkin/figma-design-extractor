@@ -1,0 +1,19 @@
+{
+  "tokenEnv": "FIGMA_TOKEN",
+  "files": [
+    {
+      "fileKey": "your-ui-kit-file-key",
+      "alias": "ui-kit"
+    },
+    {
+      "fileKey": "your-product-pages-file-key",
+      "alias": "product-pages"
+    }
+  ],
+  "options": {
+    "includeNodePath": true,
+    "includeReviewCandidates": true,
+    "reviewCandidateTypes": ["FRAME", "GROUP", "SECTION"],
+    "requestDelayMs": 150
+  }
+}

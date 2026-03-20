@@ -1,0 +1,22 @@
+{
+  "mappings": [
+    {
+      "id": "button-primary",
+      "designRef": "figma://your-ui-kit-file-key/10:21",
+      "codeRef": "storybook://components-button",
+      "relation": "exact",
+      "status": "active",
+      "source": "manual",
+      "notes": "Canonical button component"
+    },
+    {
+      "id": "button-legacy-alias",
+      "designRef": "figma://legacy-file-key/44:12",
+      "codeRef": "storybook://components-button",
+      "relation": "alias",
+      "status": "active",
+      "source": "manual",
+      "notes": "Legacy design component still maps to the same code component"
+    }
+  ]
+}
