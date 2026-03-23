@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./design.schema.json",
+  "title": "Storybook design fragment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["refs"],
+  "properties": {
+    "refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ref"],
+        "properties": {
+          "ref": { "type": "string", "minLength": 1 },
+          "view": { "type": "string", "enum": ["link", "collapsed", "expanded"] },
+          "screenshots": { "type": "string", "enum": ["none", "link", "embed"] },
+          "children": { "type": "string", "enum": ["none", "mapped", "all"] },
+          "panel": { "type": "boolean" },
+          "label": { "type": "string" },
+          "imageFormat": { "type": "string", "enum": ["png", "svg"] }
+        }
+      }
+    }
+  }
+}

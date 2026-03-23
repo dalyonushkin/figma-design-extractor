@@ -1,0 +1,16 @@
+{
+  "name": "figma-storybook-design-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Storybook helpers and sync tooling for Figma-backed design docs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "sync": "node --loader ts-node/esm src/cli/design-sync.ts scripts/design-sync.config.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/design.schema.json",
+  "refs": [
+    {
+      "ref": "figma://kit123/10:20",
+      "view": "expanded",
+      "children": "all",
+      "screenshots": "none",
+      "panel": true,
+      "label": "Button family"
+    },
+    {
+      "ref": "figma://kit123/10:21",
+      "view": "collapsed",
+      "screenshots": "link",
+      "children": "none",
+      "label": "Primary"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "catalogPath": "src/design/design-catalog.json",
+  "designConfigRoots": [
+    "src/design/fragments"
+  ],
+  "assetsDir": "public/design-assets/figma",
+  "defaultImageFormat": "png",
+  "figmaTokenEnv": "FIGMA_TOKEN",
+  "imageScale": 2
+}
